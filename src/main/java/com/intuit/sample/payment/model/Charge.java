@@ -3,8 +3,6 @@ package com.intuit.sample.payment.model;
 import java.math.BigDecimal;
 import java.util.Date;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-
 public class Charge {
   
     private String id = null;
@@ -258,11 +256,6 @@ public class Charge {
      */
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    @Override
-    public String toString() {
-        return ReflectionToStringBuilder.toString(this);
     }
 
     public String getAvsStreet() {
