@@ -1,3 +1,5 @@
+[![Sample Banner](views/Sample.png)][ss1]
+
 # SampleApp-Payments-Java
 SampleApp-Payments-Java
 
@@ -53,3 +55,5 @@ Steps described below is to run the class for creating a customer in Eclipse IDE
 3. On the console you'll see the log being generated with the charge id.
 
 Follow similar steps for other classes.
+
+[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleApp-Payments-Java
