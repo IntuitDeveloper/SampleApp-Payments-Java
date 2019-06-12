@@ -46,9 +46,8 @@ public class ChargeUsingTokenCreate {
         
         //call API
         result = PaymentService.callAPI(url, json, accessToken);
-        jsonObj = new JSONObject(result);
-        String id = jsonObj.getString("id");
-        LOG.info("charge id:" + id);
+        Charge chargeResponse = mapper.readValue(result, Charge.class);
+        LOG.info("charge id:" + chargeResponse.getId());
          
 	}
 

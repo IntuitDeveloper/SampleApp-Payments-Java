@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.codehaus.jackson.map.ObjectMapper;
-import org.json.JSONObject;
 import org.slf4j.LoggerFactory;
 
 import com.intuit.sample.payment.helper.MapperHelper;
@@ -36,10 +35,11 @@ public class ChargeCreate {
         
         //call API
         String result = PaymentService.callAPI(url, json, accessToken);
-        JSONObject jsonObj = new JSONObject(result);
-        String id = jsonObj.getString("id");
-        LOG.info("charge id:" + id);
-         
+
+        Charge chargeResponse = mapper.readValue(result, Charge.class);
+        LOG.info("charge id:" + chargeResponse.getId());
+        
+
 	}
 
 }
