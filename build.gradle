@@ -23,7 +23,7 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
     compile group: 'com.intuit.quickbooks-online', name: 'oauth2-platform-api', version: '5.0.4'
-    compile group: 'com.intuit.quickbooks-online', name: 'payments-api', version: '5.0.4'
+    compile group: 'com.intuit.quickbooks-online', name: 'payments-api', version: '5.0.5'
  
     testCompile 'junit:junit:4.12'
     
