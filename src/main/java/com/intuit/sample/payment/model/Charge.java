@@ -3,6 +3,9 @@ package com.intuit.sample.payment.model;
 import java.math.BigDecimal;
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Charge {
   
     private String id = null;

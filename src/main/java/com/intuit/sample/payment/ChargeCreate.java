@@ -3,9 +3,9 @@ package com.intuit.sample.payment;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.intuit.sample.payment.helper.MapperHelper;
 import com.intuit.sample.payment.helper.PaymentHelper;
 import com.intuit.sample.payment.helper.ResourceConfig;
@@ -31,6 +31,7 @@ public class ChargeCreate {
 		
 		//create a charge
         Charge charge = PaymentHelper.createCharge();
+        
         String json = mapper.writeValueAsString(charge);
         
         //call API
