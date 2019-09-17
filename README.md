@@ -4,13 +4,14 @@
 SampleApp-Payments-Java
 
 <p>Welcome to the Intuit Developer's Java Sample App for Payments API operations.</p>
-<p>This sample app is meant to provide working examples of how to integrate your app with the Intuit Small Business ecosystem. Specifically, this sample application demonstrates the Charge create, Charge retrieve and Create Charge using token</p>
+<p>This sample app is meant to provide working examples of how to integrate your app with the Intuit Small Business ecosystem. Specifically, this sample application demonstrates how to use Payments API using Java SDK as well as samples without the use of SDK</p>
 
 <ul>
-	<li>Create Charge.</li>
-	<li>Create Charge Using Token</li>
-	<li>Retrieve Charge.</li>
-	<li>Create Token.</li>
+	<li>All operations using Java SDK</li>
+	<li>Create Charge (Without SDK) </li>
+	<li>Create Charge Using Token (Without SDK) </li>
+	<li>Retrieve Charge. (Without SDK) </li>
+	<li>Create Token.(Without SDK)  </li>
 	<li>All operations are performed using OAuth2.</li>
 </ul>
 
