@@ -1,4 +1,4 @@
-[![Sample Banner](views/Sample.png)][ss1]
+[![Rate your Sample](views/Ratesample.png)][ss1][![Yes](views/Thumbup.png)][ss2][![No](views/Thumbdown.png)][ss3]
 
 # SampleApp-Payments-Java
 SampleApp-Payments-Java
@@ -57,4 +57,6 @@ Steps described below is to run the class for creating a customer in Eclipse IDE
 
 Follow similar steps for other classes.
 
-[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleApp-Payments-Java
+[ss1]: #
+[ss2]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=Yes&checkpoint=SampleApp-Payments-Java&pageUrl=github
+[ss3]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=No&checkpoint=SampleApp-Payments-Java&pageUrl=github
